@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c98d75f5-0510-4c9e-b43d-1852a86cf500" name="eddie.energy">
+        <fileTransfer rootFolder="/var/apps/eidtest" accessType="SFTP" host="eddie.energy" port="22" sshConfigId="e30e6334-f360-461a-bc8e-e34715831ec0" sshConfig="root@eddie.energy:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
